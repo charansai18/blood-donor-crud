@@ -1,0 +1,44 @@
+ <!-- form handling -->
+ <form action="/api/users" method="POST" id="add_user">
+    <div class="new_user">
+        <div class="form-group">
+            <label for="Name" class="text-light">Name</label>
+            <input type="hidden" name="id" value="">
+            <input type="text" name="Name" value="">
+        </div>
+        <div class="form-group">
+            <label for="Place" class="text-light">Place</label>
+            <input type="text" name="Place" value="">
+        </div>
+        <div class="form-group">
+            <label for="State" class="text-light">State</label>
+            <input type="text" name="State" value="">
+        </div>
+        <div class="form-group">
+            <label for="number" class="text-light">number</label>
+            <input type="text" name="number" value="">
+        </div>
+        <div class="form-group">
+            <label for="bloodgroup" class="text-light">bloodgroup</label>
+            <input type="text" name="bloodgroup" value="">
+        </div>
+        
+
+        <div class="form-group">
+            <label for="gender" class="text-light">Status</label>
+            <div class="radio inline">
+                <input type="radio" id="radio-4" name="status" value="Active" >
+                <label for="radio-4" class="radio-label">Active</label>
+            </div>
+            <div class="radio inline">
+                <input type="radio" id="radio-5" name="status" value="Inactive" >
+                <label for="radio-5" class="radio-label">Inactive</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn text-dark update">Save</button>
+        </div>
+
+    </div>
+</form>
